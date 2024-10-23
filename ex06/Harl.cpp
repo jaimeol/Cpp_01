@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Harl.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jolivare <jolivare@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jolivare < jolivare@student.42mad.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 15:37:26 by jolivare          #+#    #+#             */
-/*   Updated: 2024/05/16 15:52:54 by jolivare         ###   ########.fr       */
+/*   Updated: 2024/09/27 14:57:56 by jolivare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void Harl::complain(std::string const &level) const
 			break;
 		default:
 			std::cout << "\033[0:37m";
-			std::cout << "[ Probably complaining about insignificant problems ]";
+			std::cout << "[Probably complaining about insignificant problems]";
 			std::cout << "\033[0m" << std::endl;
 			break;
 	}
@@ -70,7 +70,7 @@ void Harl::debug(void) const
 	std::cout << "\033[0m" << std::endl;
 	std::cout << "\033[0;36m";
 	std::cout << "I love having extra onion rings for my ";
-	std::cout << "7XL-double-cheese-triple-pickle-specialketchup burger. ";
+	std::cout << "7XL-double-cheese-triple-pickle-special ketchup burger. ";
 	std::cout << "I really do!";
 	std::cout << "\033[0m" << std::endl;
 

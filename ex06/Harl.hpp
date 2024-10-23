@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   Harl.hpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jolivare <jolivare@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jolivare < jolivare@student.42mad.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/16 15:36:33 by jolivare          #+#    #+#             */
-/*   Updated: 2024/05/16 15:37:22 by jolivare         ###   ########.fr       */
+/*   Updated: 2024/09/27 14:53:22 by jolivare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef HARL_HPP
-# define HARL_HPP
+#pragma once
 
 #include <iostream>
 #include <string>
@@ -26,11 +25,9 @@ class Harl
 	
 	private:
 		static const std::string mood[];
-		
+
 		void debug(void) const;
 		void info(void) const;
 		void warning(void) const;
 		void error(void) const;
 };
-
-#endif

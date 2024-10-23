@@ -3,21 +3,21 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: jolivare <jolivare@student.42.fr>          +#+  +:+       +#+         #
+#    By: jolivare < jolivare@student.42mad.com>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/16 15:33:38 by jolivare          #+#    #+#              #
-#    Updated: 2024/05/16 15:50:33 by jolivare         ###   ########.fr        #
+#    Updated: 2024/09/27 14:50:44 by jolivare         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC = Harl.cpp main.cpp
 OBJECTS = $(SRC:.cpp=.o)
 INCLUDES = -I $(CURDIR)
-CC = g++
+CC = c++
 RM = rm -f
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = Harl
+NAME = harlFilter
 
 all: $(NAME)
 	
