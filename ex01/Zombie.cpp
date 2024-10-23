@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.cpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jolivare <jolivare@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jolivare < jolivare@student.42mad.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 15:13:11 by jolivare          #+#    #+#             */
-/*   Updated: 2024/05/14 15:24:12 by jolivare         ###   ########.fr       */
+/*   Updated: 2024/06/10 18:24:24 by jolivare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,7 @@ Zombie::Zombie(void) : _name("")
 Zombie::~Zombie(void)
 {
 	std::cout << "Zombie \"" << this->_name;
-	std::cout << "\" has been destroyed !" << std::endl;
-
+	std::cout << "\" has been destroyed!" << std::endl;
 	return ;
 }
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jolivare <jolivare@student.42.fr>          +#+  +:+       +#+        */
+/*   By: jolivare < jolivare@student.42mad.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/14 15:25:22 by jolivare          #+#    #+#             */
-/*   Updated: 2024/05/14 15:29:08 by jolivare         ###   ########.fr       */
+/*   Updated: 2024/06/10 18:34:53 by jolivare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,14 @@
 int main(void)
 {
 	Zombie  *zombies;
+	int n = 0;
 	
-	zombies = zombieHorde(7, "Baz");
-	for (int i = 0; i < 7; ++i)
+	zombies = zombieHorde(n, "Pepe");
+	for (int i = 0; i < n; ++i)
 		zombies[i].announce();
 	
-	delete[] zombies;
+	if (zombies)
+		delete[] zombies;
 	
 	return 0;
 }
